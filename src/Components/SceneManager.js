@@ -1,7 +1,7 @@
 import "aframe";
 import { Scene, Entity } from "aframe-react";
 import React, { useEffect, useState } from 'react';
-import { firebase } from "../DataManager";
+// import { firebase } from "../DataManager";
 
 export default function SceneManager({ formData }) {
 
@@ -204,8 +204,8 @@ export default function SceneManager({ formData }) {
 
       console.log("User Data....", UserData);
 
-      firebase.setData(UserData);
-      firebase.getData();
+      // firebase.setData(UserData);
+      // firebase.getData();
 
       setQuizPanel(false);
       setScorePanel(true);
@@ -305,7 +305,7 @@ export default function SceneManager({ formData }) {
             <img id="incorrectTick" src="https://umety-dev.s3.amazonaws.com/unicef/incorrectTick.png" alt='incorrectTickImg'></img>
 
 
-            <video id="myVideo" src="https://s3-dev.umety.com/unicef/UNICEF-4.mp4"> </video>
+            <video id="myVideo" src="video360.mp4"> </video>
 
 
           </a-assets>
