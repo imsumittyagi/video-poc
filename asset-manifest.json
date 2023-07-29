@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/video-poc/static/css/main.4571853d.css",
+    "main.js": "/video-poc/static/js/main.79e8ceff.js",
+    "static/js/787.d3072f5d.chunk.js": "/video-poc/static/js/787.d3072f5d.chunk.js",
+    "index.html": "/video-poc/index.html",
+    "main.4571853d.css.map": "/video-poc/static/css/main.4571853d.css.map",
+    "main.79e8ceff.js.map": "/video-poc/static/js/main.79e8ceff.js.map",
+    "787.d3072f5d.chunk.js.map": "/video-poc/static/js/787.d3072f5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4571853d.css",
+    "static/js/main.79e8ceff.js"
+  ]
+}
